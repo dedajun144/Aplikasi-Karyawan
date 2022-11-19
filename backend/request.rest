@@ -1,0 +1,27 @@
+GET  http://localhost:5000/users?search_query=&page=0&limit=10
+
+
+###
+GET http://localhost:5000/users/
+
+###
+GET http://localhost:5000/users/1
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{ 
+    "nik":"1274061005000005",
+    "nama":"Joshua",
+    "umur":"22",
+    "jenis_kelamin":"Laki-Laki",
+    "tanggal_lahir":"10-06-2000",
+    
+    "alamat":"jl. Puskesmas2",
+    "negara":"Indonesia"
+}
+
+
+###
+DELETE http://localhost:5000/users/2

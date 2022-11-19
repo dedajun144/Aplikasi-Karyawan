@@ -1,0 +1,30 @@
+.input {
+  width: 70%;
+}
+
+.container-search {
+  margin: 5px;
+  padding: 20px;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: hidden;
+  background-color: bisque;
+}
+
+.btn {
+  background-color: #244c9c !important ;
+  padding: 10px;
+  border-style: solid;
+  width: 100px;
+  color: #fff;
+}
+
+.column {
+  margin: 20px;
+}
+
+.thead {
+  background-color: #77aaee !important;
+}
